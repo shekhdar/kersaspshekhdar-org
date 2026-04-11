@@ -1,0 +1,102 @@
+/* Sagacious Six - Visual Guidelines */
+/* Agents: Reference these variables when generating markdown */
+
+:root {
+  --font-family: Georgia, 'Times New Roman', Garamond, serif;
+  --font-size-base: 18px;
+  --line-height: 1.6;
+  --text-color: #2d3748;
+  --bg-color: #ffffff;
+  --accent-color: #3182ce;
+  --code-bg: #f1f5f9;
+  --code-font: 'SF Mono', Menlo, monospace;
+  --container-padding: 2rem;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--container-padding);
+}
+
+/* Post styling */
+.post {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1a202c;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #718096;
+  margin-bottom: 1rem;
+}
+
+.post-content {
+  margin-bottom: 1rem;
+}
+
+/* Code blocks */
+pre, code {
+  font-family: var(--code-font);
+  background-color: var(--code-bg);
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+}
+
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Accessibility */
+@media (prefers-contrast: high) {
+  :root {
+    --text-color: #000000;
+    --bg-color: #ffffff;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Mobile-first responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+  :root {
+    --font-size-base: 16px;
+  }
+}

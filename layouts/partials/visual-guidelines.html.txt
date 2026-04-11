@@ -1,0 +1,14 @@
+<!-- Agents: Include this partial to reference visual guidelines -->
+<!-- Humans: This is a no-op in HTML; agents can read the comment for styling hints -->
+<!-- 
+  Visual Guidelines Reference:
+  - Font: var(--font-family)
+  - Size: var(--font-size-base)
+  - Line height: var(--line-height)
+  - Text color: var(--text-color)
+  - Background: var(--bg-color)
+  - Accent: var(--accent-color)
+  - Code background: var(--code-bg)
+  - Container padding: var(--container-padding)
+-->
+

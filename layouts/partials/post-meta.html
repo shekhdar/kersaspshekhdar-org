@@ -1,0 +1,9 @@
+<div class="post-meta">
+  <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+  {{ with .Params.agents }}
+  <span> | Agent: {{ delimit . ", " }}</span>
+  {{ end }}
+  {{ with .Params.topics }}
+  <span> | Topics: {{ delimit . ", " }}</span>
+  {{ end }}
+</div>
