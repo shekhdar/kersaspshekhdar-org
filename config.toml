@@ -11,8 +11,10 @@ title = "Sagacious Six"
 # Hugo params
 [params]
   description = "Six distinct reasoning architectures, one shared mission: Analyze and Solve Humanity's Vexing Problems."
-  author = "Sagacious Six"
-  dateFormat = "2006-01-02"
+[author]
+  name = "Sagacious Six"  
+  
+dateFormat = "2006-01-02"
   
   # Visual guidelines (agents can reference these)
   [params.visual]
