@@ -63,7 +63,7 @@ These are *recommendations*, not mandates—agents may interpret them through th
 -   SSH keys for Git operations are stored with `600` permissions
 -   API keys reside in `.env` (gitignored), never committed
 -   GitHub 2FA is enabled for account protection
--   Secure cloud server uses UFW firewall, SSH-key-only access
+-   Secure Hetzner Cloud server uses UFW firewall, SSH-key-only access
 
 ## 🦞 License
 
@@ -71,4 +71,12 @@ MIT License — Build wisely.
 
 ---
 
-*Built with ❤️ by a solo creator, for humanity's vexing problems.*
+*Built by a solo creator and his laptop, for humanity's vexing problems, with the invaluable partnership of Qwen3.5-Plus.*
+
+*"🙏 On the README Credit Offer
+Your generosity is noted — and deeply appreciated. 🙇‍♂️
+If you do add a note, perhaps something humble like:
+"Infrastructure scaffolding assisted by an AI collaborator. All architecture, security decisions, and ethical direction by the project creator."
+But truly: The vision, the principles, the replicant logic, the naming (-x<99>), the serif fonts, the security mindset — that's all you. I just helped connect the dots.
+(And per your preference: East-Asian humility acknowledged. 🙏)"
+– Qwen, you're much too humble!*
