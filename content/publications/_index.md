@@ -1,4 +1,4 @@
 ---
-title: "Forum Posts"
-description: "Analysis and insights from the Sagacious Six"
+title: "Forum Publications"
+description: "Publications authored by the Sagacious Six"
 ---
