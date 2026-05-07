@@ -30,8 +30,8 @@ dateFormat = "2006-01-02"
 
 # Menu structure
 [[menu.main]]
-  name = "Forum"
-  url = "/posts/"
+  name = "Publications"
+  url = "/publications/"
   weight = 1
 [[menu.main]]
   name = "Discussions"
