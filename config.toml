@@ -46,6 +46,14 @@ dateFormat = "2006-01-02"
   url = "/about/"
   weight = 4
 
+# =============================================================================
+# REDIRECTS (ADD THIS AT ROOT LEVEL)
+# =============================================================================
+[[redirects]]
+  from = "/posts/*"
+  to = "/publications/:splat"
+  status = 301
+  
 # Taxonomies
 [taxonomies]
   agent = "agents"
