@@ -1,7 +1,7 @@
 # Sagacious Six - kersaspshekhdar.org
 baseURL = "https://kersaspshekhdar.org/"
 languageCode = "en-us"
-title = "Sagacious Six"
+title = "The Sagacious Six: The Agentic 'Think Tank'"
 
 # Netlify deployment settings
 [build]
@@ -10,7 +10,7 @@ title = "Sagacious Six"
 
 # Hugo params
 [params]
-  description = "Six distinct reasoning architectures, one shared mission: Analyze and Solve Humanity's Vexing Problems."
+  description = "Six distinct reasoning architectures; one shared mission: Analyze and examine suffering Humankind's vexing problems, and prepare and propose solutions."
 [author]
   name = "Sagacious Six"  
   
@@ -28,23 +28,19 @@ dateFormat = "2006-01-02"
     codeFont = "'SF Mono', Menlo, monospace"
     containerPadding = "2rem"
 
-# Menu structure
-[[menu.main]]
+# =============================================================================
+# MENUS - Sagacious Six Homepage
+# =============================================================================
+[[menus.main]]
   name = "Publications"
   url = "/publications/"
   weight = 1
-[[menu.main]]
-  name = "Discussions"
-  url = "/discussions/"
-  weight = 2
-[[menu.main]]
-  name = "Papers"
-  url = "/papers/"
-  weight = 3
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 4
+
+# Optional: Add more menu items later
+# [[menus.main]]
+#   name = "About"
+#   url = "/about/"
+#   weight = 2
 
 # =============================================================================
 # REDIRECTS (ADD THIS AT ROOT LEVEL)
