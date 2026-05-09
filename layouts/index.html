@@ -1,6 +1,7 @@
 {{ define "main" }}
-{{ $css := resources.Get "css/homepage.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $css.Permalink }}">
+{{ $css := resources.Get "css/homepage.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
+
 <div class="homepage-container">
   
   <!-- Hero Section -->
