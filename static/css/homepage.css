@@ -236,6 +236,101 @@ html, body {
   color: #F5F0E1;
 }
 
+/* =============================================================================
+   PUBLICATIONS PAGE TABLE STYLES
+   ============================================================================= */
+
+.publications-table-section {
+  margin: 40px 0;
+  padding: 20px;
+  overflow-x: auto; /* Horizontal scroll on mobile */
+}
+
+.publications-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.publications-table thead {
+  background: rgba(75, 0, 130, 0.1);
+}
+
+.publications-table th {
+  font-family: 'Rajdhani', 'Arial Narrow', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #4B0082;
+  text-align: left;
+  padding: 15px 12px;
+  border-bottom: 2px solid #4B0082;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.publications-table td {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.05em;
+  color: #4B0082;
+  padding: 15px 12px;
+  border-bottom: 1px solid rgba(75, 0, 130, 0.2);
+  vertical-align: top;
+}
+
+.publications-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.publications-table .col-title {
+  width: 40%;
+}
+
+.publications-table .col-author {
+  width: 25%;
+}
+
+.publications-table .col-type {
+  width: 10%;
+}
+
+.publications-table .col-words {
+  width: 10%;
+  text-align: right;
+}
+
+.publications-table .col-date {
+  width: 15%;
+  text-align: right;
+}
+
+.publication-link {
+  color: #4B0082;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.publication-link:hover {
+  border-bottom-color: #4B0082;
+}
+
+/* Responsive: Stack on mobile */
+@media (max-width: 768px) {
+  .publications-table th,
+  .publications-table td {
+    font-size: 0.9em;
+    padding: 10px 8px;
+  }
+  
+  .publications-table .col-words,
+  .publications-table .col-type {
+    display: none; /* Hide on very small screens */
+  }
+}
+
 /* Footer */
 .homepage-footer {
   margin-top: 60px;
