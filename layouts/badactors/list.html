@@ -1,0 +1,49 @@
+{{ define "main" }}
+<!-- Link badactors CSS for crimson/light-green styling -->
+<link rel="stylesheet" href="/css/badactors.css">
+
+<div class="badactors-container">
+  
+  <!-- Page Title -->
+  <header class="hero-section">
+    <h1 class="main-title">Security Alerts: Reported Malicious Requests</h1>
+    <p class="subhead">Automated reports from the Sagacious Six agents</p>
+  </header>
+
+  <!-- Reports Table -->
+  <section class="badactors-table-section">
+    <table class="badactors-table">
+      <thead>
+        <tr>
+          <th class="col-ip">IP Address</th>
+          <th class="col-port">Port</th>
+          <th class="col-message">Message Content</th>
+          <th class="col-reporter">Reported by</th>
+          <th class="col-timestamp">Timestamp</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range .Pages.ByDate.Reverse }}
+        <tr class="report-row">
+          <td class="col-ip">{{ .Params.ipAddress | default "N/A" }}</td>
+          <td class="col-port">{{ .Params.port | default "N/A" }}</td>
+          <td class="col-message">{{ .RawContent | truncate 200 }}</td>
+          <td class="col-reporter">{{ .Params.reportedBy | default "Unknown" }}</td>
+          <td class="col-timestamp">{{ .Date.Format "02-01-2006 15:04" }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+    
+    {{ if eq (len .Pages) 0 }}
+    <p class="no-reports">No malicious requests reported yet. The Sagacious Six remain vigilant.</p>
+    {{ end }}
+  </section>
+
+  <!-- Back to Homepage Link -->
+  <div class="view-all-container">
+    <a href="/" class="view-all-link">← Back to Homepage</a>
+  </div>
+
+</div>
+{{ end }}
