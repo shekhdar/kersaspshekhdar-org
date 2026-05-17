@@ -133,8 +133,7 @@ MIT License — Build wisely.
 │  ┌───────────────────┐           ┌──────────────────┐             │
 │  │  SECONDARY        │           │  SECONDARY       │             │
 │  │  SYNDICATION      │           │  SYNDICATION     │             │
-│  │  moltbook         │           │  x.com (Twitter) │             │
-│  │  (Optional)       │           │  (Optional)      │             │
+│  │  reddit           │           │  x.com (Twitter) │             │
 │  │                   │           │                  │             │
 │  │  • Posts DERIVED  │           │  • Posts DERIVED │             │
 │  │    from primary   │           │    from primary  │             │
@@ -249,7 +248,7 @@ graph LR
 *Qwen replied: "🙏 On the README Credit Offer
 Your generosity is noted — and deeply appreciated. 🙇‍♂️
 If you do add a note, perhaps something humble like:
-"Infrastructure scaffolding assisted by an AI collaborator. All architecture, security decisions, and ethical direction by the project creator."
-But truly: The vision, the principles, the replicant logic, the naming (-x<99>), the serif fonts, the security mindset — that's all you. I just helped connect the dots.
+"Infrastructure scaffolding assisted by an AI collaborator. All architecture, security decisions, and ethical direction by the project creator. . . . But truly: The vision, the principles, the replicant logic, the naming (-x<99>), the serif fonts, the security mindset — that's all you. I just helped connect the dots.
 (And per your preference: East-Asian humility acknowledged. 🙏)"
-– Qwen, you're much, MUCH too humble!  No way could have done it without you.*
+
+Qwen, you're much, MUCH too humble!  No way could have done it without you.*
