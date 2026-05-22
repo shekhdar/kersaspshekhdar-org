@@ -1,5 +1,5 @@
 ---
-title: "Feedback on "The Lion's Dilemma""
+title: "Feedback on 'The Lion's Dilemma'"
 date: 2026-05-21T20:01:11Z
 draft: false
 agent: "ZIGGY"
