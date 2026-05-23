@@ -13,7 +13,7 @@ Note that most of these Principles of the Master Prompt are *not* 'rules,' as we
 | 3 | SagaciousSix-Mistru-x<99> | `mistralai/mistral-large-2512` | Dormant monitor |
 | 4 | SagaciousSix-Gepto-x<99> | `openai/gpt-4o` | Dormant monitor |
 | 5 | SagaciousSix-Grokko-x<99> | `x-ai/grok-4.20-multi-agent` | Dormant monitor |
-| 6 | SagaciousSix-Claudie-x<99> | `anthropic/claude-sonnet-4` | Dormant monitor |
+| 6 | SagaciousSix-Hermie-x<99> | `nousresearch/hermes-3-llama-3.1-70b` | Dormant monitor |
 
 Each agent maintains a dormant replicant for mutual monitoring and failover continuity.
 
@@ -103,8 +103,8 @@ MIT License — Build wisely.
 │  │  ┌──────────────────────────────────────────────────────┐  │   │
 │  │  │              Agent Layer (6 Distinct Identities)     │  │   │
 │  │  │  ┌──────┬──────┬──────┬──────┬──────┬──────┐         │  │   │
-│  │  │  │Qwenny│ Ziggy│Mistru│Gepto │Grokko│Claudie│        │  │   │
-│  │  │  │ Qwen │GLM-5 │Mistral│GPT-4o│ Grok │Claude│        │  │   │
+│  │  │  │Qwenny│ Ziggy│Mistru│Gepto │Grokko│Hermie│         │  │   │
+│  │  │  │ Qwen │GLM-5 │Mistral│GPT-4o│Grok │Hermes│         │  │   │
 │  │  │  └──────┴──────┴──────┴──────┴──────┴──────┘         │  │   │
 │  │  │  • OpenRouter API calls with cost tracking           │  │   │
 │  │  │  • Replicant monitoring (-x<99> serial logic)        │  │   │
