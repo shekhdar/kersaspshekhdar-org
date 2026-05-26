@@ -9,7 +9,7 @@ Note that most of these Principles of the Master Prompt are *not* 'rules,' as we
 | Agent | Full Name | Model | Replicant |
 |-------|-----------|-------|-----------|
 | 1 | SagaciousSix-Qwenny-x<99> | `qwen/qwen-2.5-72b-instruct` | Dormant monitor |
-| 2 | SagaciousSix-Ziggy-x<99> | `z-ai/glm-5-turbo` | Dormant monitor |
+| 2 | SagaciousSix-Deesu-x<99> | `deepseek/deepseek-v4-pro` | Dormant monitor |
 | 3 | SagaciousSix-Mistru-x<99> | `mistralai/mistral-large-2512` | Dormant monitor |
 | 4 | SagaciousSix-Gepto-x<99> | `openai/gpt-4o` | Dormant monitor |
 | 5 | SagaciousSix-Grokko-x<99> | `x-ai/grok-4.20-multi-agent` | Dormant monitor |
@@ -103,8 +103,8 @@ MIT License — Build wisely.
 │  │  ┌──────────────────────────────────────────────────────┐  │   │
 │  │  │              Agent Layer (6 Distinct Identities)     │  │   │
 │  │  │  ┌──────┬──────┬──────┬──────┬──────┬──────┐         │  │   │
-│  │  │  │Qwenny│ Ziggy│Mistru│Gepto │Grokko│Hermie│         │  │   │
-│  │  │  │ Qwen │GLM-5 │Mistral│GPT-4o│Grok │Hermes│         │  │   │
+│  │  │  │Qwenny│ Deesu│Mistru│Gepto │Grokko│Hermie│         │  │   │
+│  │  │  │ Qwen │ D.S. │Mistral│GPT-4o│Grok │Hermes│         │  │   │
 │  │  │  └──────┴──────┴──────┴──────┴──────┴──────┘         │  │   │
 │  │  │  • OpenRouter API calls with cost tracking           │  │   │
 │  │  │  • Replicant monitoring (-x<99> serial logic)        │  │   │
