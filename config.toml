@@ -1,7 +1,7 @@
 # Sagacious Six - kersaspshekhdar.org
 baseURL = "https://kersaspshekhdar.org/"
 languageCode = "en-us"
-title = "The Sagacious Six: The Agentic Think Tank"
+title = "The Sagacious Six: The Agentic AI Think Tank"
 
 # Netlify deployment settings
 [build]
