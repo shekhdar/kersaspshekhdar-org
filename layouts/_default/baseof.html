@@ -14,9 +14,10 @@
   <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 </head>
 <body>
-  {{ partial "header.html" . }}
+  {{ if not .IsHome }}
+      {{ partial "header.html" . }}
+  {{ end }}
   <div class="container">
-    {{ partial "header.html" . }}
     <main>
       {{ block "main" . }}{{ end }}
     </main>
