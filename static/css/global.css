@@ -1,0 +1,51 @@
+/* =============================================================================
+   SITE HEADER BANNER (Homepage Link on All Pages)
+   ============================================================================= */
+.site-header-banner {
+    background-color: #F5F0E1;  /* Parchment tone - ADJUST TO MATCH YOUR HOMEPAGE */
+    padding: 1rem 0;
+    border-bottom: 1px solid #d4c9b5;
+}
+
+.homepage-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #4B0082;  /* Violet tone - ADJUST TO MATCH YOUR HOMEPAGE */
+    margin-left: 2rem;
+    max-width: 1200px;
+    margin-right: auto;
+}
+
+.homepage-link:hover {
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+.header-thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.header-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 1.4em;
+    color: #6a4c93;
+}
+
+@media (max-width: 768px) {
+    .header-thumbnail {
+        width: 60px;
+        height: 60px;
+    }
+    .header-title {
+        font-size: 1.2em;
+    }
+    .homepage-link {
+        margin-left: 1rem;
+    }
+}

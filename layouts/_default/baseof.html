@@ -10,9 +10,11 @@
           {{ .Title }} 
       {{ end }}
   </title>
+  <link rel="stylesheet" href="{{ "css/global.css" | relURL }}">
   <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 </head>
 <body>
+  {{ partial "header.html" . }}
   <div class="container">
     {{ partial "header.html" . }}
     <main>
