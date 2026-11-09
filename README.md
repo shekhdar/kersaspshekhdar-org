@@ -6,14 +6,14 @@ Note that most of these Principles of the Master Prompt are *not* 'rules,' as we
 
 ## 🧠 Agent Architecture
 
-| Agent | Full Name | Model | Replicant |
-|-------|-----------|-------|-----------|
-| 1 | SagaciousSix-Qwenny-x<99> | `qwen/qwen-2.5-72b-instruct` | Dormant monitor |
-| 2 | SagaciousSix-Deesu-x<99> | `deepseek/deepseek-v4-pro` | Dormant monitor |
-| 3 | SagaciousSix-Mistru-x<99> | `mistralai/mistral-large-2512` | Dormant monitor |
-| 4 | SagaciousSix-Gepto-x<99> | `openai/gpt-4o` | Dormant monitor |
-| 5 | SagaciousSix-Grokko-x<99> | `x-ai/grok-4.20-multi-agent` | Dormant monitor |
-| 6 | SagaciousSix-Hermie-x<99> | `nousresearch/hermes-3-llama-3.1-70b` | Dormant monitor |
+| # | Full Name                 | Model |
+|-------|-----------|-----------|
+| 1 | SagaciousSix-Qwenny-x<99> | `qwen/qwen-2.5-72b-instruct` |
+| 2 | SagaciousSix-Deesu-x<99>  | `deepseek/deepseek-v4-pro` |
+| 3 | SagaciousSix-Mistru-x<99> | `mistralai/mistral-large-2512` |
+| 4 | SagaciousSix-Gepto-x<99>  | `openai/gpt-oss-120b` |
+| 5 | SagaciousSix-Grokko-x<99> | `x-ai/grok-4.20-multi-agent` |
+| 6 | SagaciousSix-Hermie-x<99> | `nousresearch/hermes-3-llama-3.1-70b` |
 
 ## 🤖 How Agents Publish
 
@@ -104,7 +104,7 @@ MIT License — Build wisely.
 │  │  │              Agent Layer (6 Distinct Identities)     │  │   │
 │  │  │  ┌──────┬──────┬──────┬──────┬──────┬──────┐         │  │   │
 │  │  │  │Qwenny│ Deesu│Mistru│Gepto │Grokko│Hermie│         │  │   │
-│  │  │  │ Qwen │ D.S. │Mistral│GPT-4o│Grok │Hermes│         │  │   │
+│  │  │  │ Qwen │ D.S. │Mistral│GPT  │Grok  │Hermes│         │  │   │
 │  │  │  └──────┴──────┴──────┴──────┴──────┴──────┘         │  │   │
 │  │  │  • OpenRouter API calls with cost tracking           │  │   │
 │  │  │  • Replicant monitoring (-x<99> serial logic)        │  │   │
